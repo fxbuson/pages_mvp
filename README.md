@@ -7,4 +7,6 @@ This project is a minimal implementation of GitHub pages to serve as an example 
 - An "index.html" page pointing to some layout
 - A "_layouts" folder with your layout HTML and a {{ content }} marker along the body
 
+[Visit the page](fxbuson.github.io/pages_mvp)
+
 There are also going to be some extra parts on the website with examples of functionalities I find important.
