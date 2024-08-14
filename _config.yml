@@ -3,3 +3,6 @@ description: Minimal viable product for GitHub pages
 author: Felipe Xavier Buson
 baseurl: /pages_mvp
 url: https://fxbuson.github.io/pages_mvp
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
