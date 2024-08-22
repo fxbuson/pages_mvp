@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Example 1",
+        "sequence": "ATCGC",
+        "id":"ex_001"
+    },
+    {
+        "name": "Example 2",
+        "sequence": "ATGTTC",
+        "id":"ex_002"
+    },
+    {
+        "name": "Example 3",
+        "sequence": "CCGATC",
+        "id":"ex_003"
+    }
+]

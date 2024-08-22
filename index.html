@@ -5,3 +5,23 @@ title: GitHub pages MVP
 
 <h1>GitHub Pages Minimal Viable Product (MVP)</h1>
 <p>Hello World</p>
+
+<p> This is how you can display some data you have on Github</p>
+<table id='some_data'>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Sequence</th>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for entry in site.data.example %}
+        <tr>
+            <td>{{ entry.name }}</td>
+            <td>{{ entry.sequence }}</td>
+            <td>{{ entry.id }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
